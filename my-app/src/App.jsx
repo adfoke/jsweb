@@ -13,8 +13,7 @@ function App() {
         {/* 导航栏 */}
         <nav className="bg-stone-100 text-gray-800 p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <h1 className="text-2xl font-bold">我的网站</h1>
-            <ul className="flex space-x-6">
+            <ul className="flex space-x-6 text-xl">
               <li>
                 <NavLink
                   to="/"
