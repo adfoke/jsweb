@@ -1,19 +1,15 @@
 export default function Home() {
-  // 示例数据
   const users = [
     { id: 1, name: "张三", age: 25, email: "zhangsan@example.com" },
     { id: 2, name: "李四", age: 30, email: "lisi@example.com" },
     { id: 3, name: "王五", age: 28, email: "wangwu@example.com" },
   ];
-    return (
-      <div className="container mx-auto p-4">
-        <h2 className="text-4xl font-semibold mb-4 text-blue-400">欢迎来到首页</h2>
-        <p className="text-lg text-gray-700">
-          这是首页内容。你可以在这里展示主要信息。
-        </p>
-         {/* 表格 */}
-      <div className="overflow-x-auto">
-        <table className="w-full bg-white border border-gray-300 rounded-lg shadow-md table-auto">
+
+  return (
+    <div className="container mx-auto p-4">
+      {/* 表格 */}
+      <div className="overflow-x-auto max-w-2xl mx-auto w-full">
+        <table className="w-full bg-stone-200 border border-gray-300 rounded-lg shadow-md table-auto">
           <thead className="bg-gray-100">
             <tr>
               <th className="py-3 px-4 border-b text-left text-gray-700">ID</th>

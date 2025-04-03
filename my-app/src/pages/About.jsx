@@ -25,7 +25,7 @@ export default function About() {
 
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-3xl font-semibold mb-4 text-blue-400">关于我们</h2>
+
       <p className="text-lg text-gray-700 mb-6">
         这是一个关于页面，介绍我们的团队。以下是我们的核心成员：
       </p>
@@ -37,7 +37,7 @@ export default function About() {
           {employees.map((employee, index) => (
             <div
               key={index}
-              className="bg-stone-200 border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow w-80"
+              className="bg-stone-100 border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow w-80"
             >
               <h3 className="text-xl font-bold text-gray-800 mb-2">{employee.name}</h3>
               <p className="text-gray-600 font-semibold mb-2">{employee.position}</p>
